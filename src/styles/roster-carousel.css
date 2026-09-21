@@ -33,7 +33,7 @@ button { font: inherit; }
 .roster-slide.prev3, .roster-slide.next3 { z-index: 4; opacity: 0; }
 .roster-slide.hidden { opacity: 0; pointer-events: none; }
 
-.carousel-button { position: absolute; top: 30%; width: 32px; height: 32px; padding: 0; border: 0; background: transparent; color: #174f9b; font-size: 40px; line-height: 26px; cursor: pointer; z-index: 30; }
+.carousel-button { position: absolute; top: 0; margin-top: calc(15% - 20px); width: 40px; height: 40px; padding: 0; border: 0; background: transparent; color: #174f9b; font-size: 40px; line-height: 1; cursor: pointer; z-index: 30; }
 .carousel-button--previous { left: -40px; }
 .carousel-button--next { right: -40px; }
 .carousel-button:focus-visible { outline: 2px solid #174f9b; outline-offset: 4px; border-radius: 50%; }
@@ -54,7 +54,7 @@ button { font: inherit; }
   .roster-slide.prev, .roster-slide.prev2, .roster-slide.prev3 { left: 0; }
   .roster-slide.next, .roster-slide.next2, .roster-slide.next3 { left: 70%; }
   .roster-slide:not(.active):not(.prev):not(.next) .roster-slide__details { opacity: 0; transition: opacity 1s; }
-  .carousel-button { top: 25%; }
+  .carousel-button { margin-top: calc(25% - 16px); width: 32px; height: 32px; color: #174f9b; font-size: 32px; }
   .carousel-button--previous { left: -32px; }
   .carousel-button--next { right: -32px; }
 }
